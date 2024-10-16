@@ -141,10 +141,8 @@ export default function PlansAndPricing() {
   return (
     <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center text-gray-900 mb-4">AI Greeting Card Generator</h2>
-        <p className="text-xl text-center text-gray-600 mb-2">Create personalized greeting cards in seconds!</p>
-        <p className="text-center text-gray-500 mb-8">Choose a plan that fits your needs and start creating amazing cards today.</p>
-        
+        <h2 className="text-4xl font-bold text-center text-gray-900 mb-4">Plans and Pricing</h2>
+        <p className="text-center text-gray-500 mb-8">Choose a plan that fits your needs and start creating amazing cards today.</p>        
         <div className="grid md:grid-cols-3 gap-8">
           {pricingPlans.map((plan, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
